@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karachi City</title>
+    <style>
+        *{
+            box-sizing:  border-box;
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        header{
+            background-color: black;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        section{
+            display: -webkit-flex;
+            display: flex;
+        }
+        nav{
+            -webkit-flex: 1;
+            -ms-flex:1;
+            flex:1;
+            background-color: #ccc;
+            padding: 20px;
+        }
+
+        nav ol{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            -webkit-flex:3;
+            flex:3;
+            flex:3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color:white;
+        }
+
+        @media (max-width:600px){
+            section{
+                -webkit-flex-direction:column;
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Karachi city</h2>
+    </header>
+    <section>
+        <nav>
+            <ol>
+                <li><a href="index.html">Karachi</a></li>
+                <li><a href="index2.htm">Lahore</a></li>
+                <li><a href="index3.htm">Islamabad</a></li>
+            </ol>
+        </nav>
+   
+    <article>
+        <h1>Karachi</h1>
+        <p>Karachi  is the capital city of the Pakistani province of Sindh. It is the largest city in Pakistan and 12th largest in the world, with a population of over 20 million. It is situated at the southern tip of the country along the Arabian Sea coast and formerly served as the country's capital from 1947 to 1959. Ranked as a beta-global city, it is Pakistan's premier industrial and financial centre, with an estimated GDP of over $200 billion (PPP) as of 2021.Karachi is a metropolitan city and is considered Pakistan's most cosmopolitan city, and among the country's most linguistically, ethnically, and religiously diverse regions, as well as one of the country's most progressive and socially liberal cities.</p>
+        <p>Karachi is now Pakistan's premier industrial and financial centre. The city has a formal economy estimated to be worth $190 billion as of 2021, which is the largest in the country. Karachi collects 35% of Pakistan's tax revenue, and generates approximately 25% of Pakistan's entire GDP. Approximately 30% of Pakistani industrial output is from Karachi, while Karachi's ports handle approximately 95% of Pakistan's foreign trade.</p>
+    </article>
+</section>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+</html>
